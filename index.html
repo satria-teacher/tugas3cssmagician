@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanado</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: { 
+              colors: {
+                'warnaUtama':'#f6ebda',
+                'warnaKedua':'#ff902a',
+                'warnaKetiga':'#ffcb7c',
+                'warnaKeempat':'#2f2105',
+              },
+              fontFamily: {
+                   'popin': ['Poppins', 'sans-serif'],
+                }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-popin overflow-x-hidden">
+    <section id="testimonial" class="mt-5">
+        <div class="w-8/12 xl:w-[65%] flex
+                        py-60 xl:py-40 lg:py-28 ps-32 xl:ps-24 lg:ps-24 rounded-r-3xl
+                        bg-warnaUtama bg-cover bg-[url('assets/images/bg-testimonial.png')] bg-blend-overlay">
+            <div class="w-full">
+                <h2 class="text-5xl xl:text-3xl lg:text-2xl font-semibold mb-9 lg:mb-5">What they say about us</h2>
+                <p class="text-2xl  xl:text-base lg:text-sm text-gray-500 w-5/12 xl:w-5/12 lg:w-[250px]">We always provide the best service and always maintain the quality of coffee</p>
+            </div>
+            <div class="absolute top-40 xl:top-32 lg:top-20 right-0 xl:right-[-60px]">
+                <div class="flex">
+                    <div class="relative me-[120px] xl:me-[85px] lg:me-[55px]">
+                        <img src="assets/images/testimonial-1.png" class="max-w-64 xl:max-w-48 lg:max-w-40" alt="">
+                        <div class="absolute bottom-10 xl:bottom-5 lg:bottom-4 left-10 xl:left-7 lg:left-6 
+                            w-[300px] xl:w-[200px] lg:w-[170px] 
+                            bg-warnaKetiga bg-opacity-50 
+                            p-2 xl:p-1 lg:p-1 rounded-xl">
+                            <div class="bg-warnaKetiga rounded-xl p-2 ">
+                                <div class="text-xl xl:text-base lg:text-sm font-semibold">Naura</div>
+                                <div class="text-lg xl:text-xs lg:text-xs">The coffee menu here is very much</div>
+                            </div>    
+                        </div>
+                    </div>            
+                    <div class="relative me-[120px] xl:me-[85px] lg:me-[55px]">
+                        <img src="assets/images/testimonial-1.png" class="max-w-64 xl:max-w-48 lg:max-w-40" alt="">
+                        <div class="absolute bottom-10 xl:bottom-5 lg:bottom-4 left-10 xl:left-7 lg:left-6 
+                            w-[300px] xl:w-[200px] lg:w-[170px] 
+                            bg-warnaKetiga bg-opacity-50 
+                            p-2 xl:p-1 lg:p-1 rounded-xl">
+                            <div class="bg-warnaKetiga rounded-xl p-2 ">
+                                <div class="text-xl xl:text-base lg:text-sm font-semibold">Naura</div>
+                                <div class="text-lg xl:text-xs lg:text-xs">The coffee menu here is very much</div>
+                            </div>    
+                        </div>
+                    </div>            
+                    <div class="relative me-[120px] xl:me-[85px] lg:me-[25px]">
+                        <img src="assets/images/testimonial-1.png" class="max-w-64 xl:max-w-48 lg:max-w-40" alt="">
+                        <div class="absolute bottom-10 xl:bottom-5 lg:bottom-4 left-10 xl:left-7 lg:left-6 
+                            w-[300px] xl:w-[200px] lg:w-[170px] 
+                            bg-warnaKetiga bg-opacity-50 
+                            p-2 xl:p-1 lg:p-1 rounded-xl">
+                            <div class="bg-warnaKetiga rounded-xl p-2 ">
+                                <div class="text-xl xl:text-base lg:text-sm font-semibold">Naura</div>
+                                <div class="text-lg xl:text-xs lg:text-xs">The coffee menu here is very much</div>
+                            </div>    
+                        </div>
+                    </div>            
+        
+                </div>
+                <div class="flex justify-center py-5">
+                    <button autofocus class=" bg-warnaUtama rounded-full w-3 lg:w-2 h-3 lg:h-2 focus:bg-warnaKedua focus:outline-none mx-2 lg:mx-1" aria-current="true"></button>
+                    <button autofocus class=" bg-warnaUtama rounded-full w-3 lg:w-2 h-3 lg:h-2 focus:bg-warnaKedua focus:outline-none mx-2 lg:mx-1" aria-current="false"></button>
+                    <button autofocus class=" bg-warnaUtama rounded-full w-3 lg:w-2 h-3 lg:h-2 focus:bg-warnaKedua focus:outline-none mx-2 lg:mx-1" aria-current="false"></button>
+                </div>
+            </div>            
+    
+        </div>
+    </section>
+    <section id="newsletter" class="p-32 xl:ps-24 lg:p-24 w-full">
+        <div class=" bg-[url('assets/images/bg-newsletter.png')] bg-cover bg-no-repeat rounded-3xl 
+        w-full p-[200px] xl:p-[120px] lg:p-[100px]">
+            <h2 class="text-5xl xl:text-3xl lg:text-2xl 
+                text-center font-semibold mb-9 text-white">Subscribe to get 50% discount price</h2>
+            <div class="flex justify-center">
+                <label for="" class="w-[60%] lg:w-[70%] bg-white rounded-full 
+                    py-1 ps-10 pe-1 flex justify-between">
+                    <input type="text" placeholder="Email address" 
+                        class="text-xl lg:text-sm  w-[60%]  focus:outline-none">
+                    <button type="submit" 
+                        class="bg-warnaKeempat lg:text-sm px-10 lg:px-4 py-4 lg:py-2 text-white font-medium rounded-full">Order Now</button>
+                </label> 
+            </div>
+        </div>
+    </section>
+</body>
+</html>
